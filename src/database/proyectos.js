@@ -37,7 +37,7 @@ export const proyectos = [
     titulo: "Landing Page",
     descripcion: "Creación de landing page personal con hoja de vida o portafolio.",
     url: "https://firebasestorage.googleapis.com/v0/b/landing-page-35209.appspot.com/o/unknown%20(31).png?alt=media&token=9bdc7701-513d-4551-bed6-51b0a07cbc78",
-    url_preview: "https://todolist-sofiaguerra.netlify.app/",
+    url_preview: "https://landingpage-sofiaguerra.netlify.app/",
     url_github: "https://github.com/angysof16/Landing-Page-Sofia-Guerra",
   },
   {
