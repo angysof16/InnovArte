@@ -6,12 +6,6 @@
   background-color: #ccc;
 }
 
-section {
-  display: flex;
-  place-items: center;
-  height: 100vh;
-}
-
 .nav {
   display: flex;
   align-items: center;
@@ -60,3 +54,5 @@ ul {
 a {
   cursor: pointer;
 }
+
+
