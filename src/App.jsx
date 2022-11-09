@@ -1,36 +1,42 @@
 import Navbar from "./components/Navbar";
 import { InicioPage } from "./pages/InicioPage";
-import { PerfilPage } from "./pages/PerfilPage";
-import { EstudiosPage } from "./pages/EstudiosPage";
-import { ExperienciaPage } from "./pages/ExperienciaPage";
-import { ProyectosPage } from "./pages/ProyectosPage";
+import { CcsjPage } from "./pages/CcsjPage";
+import { HistoriaPage } from "./pages/HistoriaPage";
+import { RemembranzasPage } from "./pages/RemembranzasPage";
 import { ContactoPage } from "./pages/ContactoPage";
+import { EmailPage } from "./pages/EmailPage";
 import { Footer } from "./components/Footer";
 
 function App() {
   return (
     <>
       <Navbar />
-      <section id="inicio" className="bg-gradient-to-r from-custom-bg-n1 via-custom-bg-n2 to-custom-bg-n3">
+      {/* <section id="inicio" className=" bg-gradient-to-r from-slate-200 via-slate-300 to-slate-400"> */}
+      <section id="inicio" className="w-full bg-slate-200">
         <InicioPage />
       </section>
-      <section id="perfil" className="bg-gradient-to-r from-custom-gradient-n1 via-custom-gradient-n2 to-custom-gradient-n3">
-        <PerfilPage />
+
+      <section id="ccsj" className="bg-slate-300">
+        <CcsjPage />
       </section>
-      <section id="experiencia" className="bg-gradient-to-r from-custom-bg-n1 via-custom-bg-n2 to-custom-bg-n3">
-        <ExperienciaPage />
+
+      <section id="historia" className="bg-slate-200">
+        <HistoriaPage />
       </section>
-      <section id="estudios" className="bg-gradient-to-r from-custom-gradient-n1 via-custom-gradient-n2 to-custom-gradient-n3">
-        <EstudiosPage />
+
+      <section id="remembranzas" className="bg-slate-300">
+        <RemembranzasPage />
       </section>
-      
-      <section id="proyectos" className="bg-gradient-to-r from-custom-bg-n1 via-custom-bg-n2 to-custom-bg-n3 h-auto">
-        <ProyectosPage />
-      </section>
-      <section id="contacto" className="bg-gradient-to-r from-custom-gradient-n1 via-custom-gradient-n2 to-custom-gradient-n3">
+
+      <section id="contacto" className="bg-slate-200">
         <ContactoPage />
       </section>
+
+      <section id="contacto" className="bg-slate-300">
+        <EmailPage />
+      </section>
       <Footer />
+
     </>
   );
 }
