@@ -17,7 +17,7 @@ export const RemembranzasPage = () => {
         Remembranzas
       </h1>
 
-      <div className="">
+      <div className=" ">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
